@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background:linear-gradient(#12c2e9,#c471ed,#f64f59);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius:30%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background:#EFB0C9 ; 
+    padding: 5px 10px;
+    border-radius:5px ; 
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    background:#EFB0C9 ; 
+    padding: 5px 10px;
+    border-radius:5px ;  
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.gift-section{
+    margin-top: 50px;
+
+}
+
+.gift-title{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img{
+    margin:0 auto ;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/92/49/gold-ribbon-on-pink-background-gift-box-cover-vector-4659249.jpg");
+    background-size: cover;
+}
+
+#img4{
+    height: 200px;
+}
+
+#img1:hover {
+    background-image: url(https://media2.giphy.com/media/2qs86TQ4O4MxfXSZBg/200.webp?cid=ecf05e47ufvu6k6jmfvsfc8sps0tyuelneqikkynsdq30s2p&rid=200.webp&ct=g);
+}
+
+#img2:hover{
+    background-image: url(https://media1.giphy.com/media/e0qWfWDuFDyaGM1GkP/200.webp?cid=ecf05e47pk6o30bn9eumqvmy5f1h6cfj87q6zg0zj816cf5h&rid=200.webp&ct=g);
+}
+
+#img3:hover{
+    background-image: url(https://media2.giphy.com/media/ifB1v1W3Db0GIW7uTA/200w.webp?cid=ecf05e47pk6o30bn9eumqvmy5f1h6cfj87q6zg0zj816cf5h&rid=200w.webp&ct=g);
+}
+
+#img4:hover{
+    background-image: url(https://media0.giphy.com/media/OJVQOfitCNNkI/200w.webp?cid=ecf05e47ufocwbp2uznsadbovlart069eq6tmy7mmp5zwdna&rid=200w.webp&ct=g);
+}
+
+.footer{
+    width: 400px;
+    margin: 0 auto;
+    font-style: italic;
+}
